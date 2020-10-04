@@ -2,37 +2,98 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h4 {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h4 {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logging-in-fields  {
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.logging-in-text  {
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.creating-new-blog-text  {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.creating-new-blog  {
+  margin-bottom: 20px;
+}
+
+.logged-in-user {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.document {
+  margin: 40px;
+}
+
+.log-in-button {
+  margin: 10px;
+  background: rgb(12, 247, 12);
+  font-size: 15px;
+}
+
+.cancel-button {
+  margin: 10px;
+  background: blueviolet;
+  font-size: 15px;
+}
+
+.blog {
+  margin: 20px;
+  color: black;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.blog-details {
+  margin-left: 20px;
+}
+
+.blog-details-button {
+  margin: 20px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.notice  {
+  color: greenyellow;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.log-out-button  {
+  margin-left: 20px;
+  background: rgb(12, 247, 12);
+  font-size: 15px;
+}
+
+.creating-new-blog-button {
+  margin-left: 20px;
+  background: rgb(12, 247, 12);
+  font-size: 15px;
 }
